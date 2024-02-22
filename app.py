@@ -10,7 +10,7 @@ from xgboost import XGBRegressor
 from sklearn.neighbors import KNeighborsRegressor
 
 # Load your dataset
-df = pd.read_csv('/Users/kumarmayank/Downloads/Dataset_modified_pom.csv')
+df = pd.read_csv('Dataset_modified_pom.csv')
 df = df.drop(['Product Availibility index', 'City'], axis=1)
 
 # Assuming df is your DataFrame with 'Date', 'MRP', 'SP', and 'MSP' columns
